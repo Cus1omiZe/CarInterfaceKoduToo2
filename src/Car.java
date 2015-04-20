@@ -20,14 +20,14 @@ public class Car
       engine.stop();
    }//end stop engine
   
-   public void speedUp(int mph)
+   public void speedUp(int kmh)
    {
-      speed += mph;
+      speed += kmh;
    }//end speedUp
   
-   public void slowDown(int mph)
+   public void slowDown(int kmh)
    {
-      speed -= mph;
+      speed -= kmh;
    }//end slow down
   
    public void stop()

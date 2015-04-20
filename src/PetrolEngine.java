@@ -1,6 +1,6 @@
 public class PetrolEngine implements Engine
 {
-   private final double litres;
+   private double litres;
   
    public PetrolEngine(double litres)
    {

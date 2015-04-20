@@ -1,9 +1,5 @@
 public class CarDemo
 {
-   /*
-    * I usually avoid putting "real" code in the main method,
-    * but I'll do it this time
-    */
    public static void main(String[] args)
 {
   Car ford = new Car("Ford", new PetrolEngine(1.3));//1.3 litre engine

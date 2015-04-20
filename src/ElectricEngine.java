@@ -1,6 +1,6 @@
 public class ElectricEngine implements Engine
 {
-   private final double hp;
+   private double hp;
   
    public ElectricEngine(double hp)
    {
